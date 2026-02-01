@@ -10,7 +10,7 @@ const projects = [
     web: "https://cgcminc.vercel.app/",
     youtube: "d9R3duNF7eg",
     video: "https://www.youtube.com/watch?v=d9R3duNF7eg",
-    github: "https://github.com/pibelanzallamas/minc.cg/",
+    github: "https://github.com/brandoncastillodev/minc.cg/",
     description:
       "Website created for the company CGC minc, focused on building community and a marketplace for clothing and accessories.",
     descripcion:
@@ -28,7 +28,7 @@ const projects = [
     web: "https://brandon-castillo.vercel.app/",
     youtube: "fQGRjpaZeFk",
     video: "https://www.youtube.com/watch?v=fQGRjpaZeFk",
-    github: "http://github.com/pibelanzallamas/brandon-castillo",
+    github: "http://github.com/brandoncastillodev/brandon-castillo",
     description:
       "My personal website where I share my experience, education, and professional background.",
     descripcion:
@@ -46,7 +46,7 @@ const projects = [
     web: "https://youfast.vercel.app/",
     youtube: "IoIIYAMlT6g",
     video: "https://www.youtube.com/watch?v=IoIIYAMlT6g",
-    github: "http://github.com/pibelanzallamas/youfast",
+    github: "http://github.com/brandoncastillodev/youfast",
     description: "Song search app for grandparents: type the song, artist, press Enter, and the song starts playing instantly.⚡",
     descripcion: "Buscador de canciones para abuelos y abuelas, escribis cancion, artista, presionas enter y ya suena la cancion.⚡",
     tags: ["react", "redux", "sass", "html/css", "dotenv"],
@@ -63,7 +63,7 @@ const projects = [
     web: "https://your-mood.vercel.app/",
     youtube: "2PzNBIX46Wc",
     video: "https://www.youtube.com/watch?v=2PzNBIX46Wc",
-    github: "http://github.com/pibelanzallamas/your-mood",
+    github: "http://github.com/brandoncastillodev/your-mood",
     description: "Website that recomends random songs based on your mood.",
     descripcion: "Sitio que recomienda canciones según tu estado de animo.",
     tags: ["react", "sass", "axios", "html/css", "javascript"],
@@ -78,7 +78,7 @@ const projects = [
     web: "http://carbon-copy-omega.vercel.app",
     youtube: "bb8RomFHFdg",
     video: "https://www.youtube.com/watch?v=bb8RomFHFdg",
-    github: "https://github.com/pibelanzallamas/carbon-copy",
+    github: "https://github.com/brandoncastillodev/carbon-copy",
     description: "Web application to format and export code snippets from different languages to PNG format.",
     descripcion: "Aplicación web para formatear y exportar fragmentos de código de diferentes lenguajes a formato PNG.",
     tags: [
@@ -107,7 +107,7 @@ const projects = [
     web: "https://house-of-dev-client.vercel.app",
     youtube: "LiaV7xHjJmk",
     video: "https://www.youtube.com/watch?v=LiaV7xHjJmk",
-    github: "https://github.com/pibelanzallamas/house-of-dev-client-deploy",
+    github: "https://github.com/brandoncastillodev/house-of-dev-client-deploy",
     description:
       "A web application similar to a real estate website, with various filters, sorting, appointment scheduling, favorites, email confirmation, admin mode, and more.",
     descripcion:
@@ -138,7 +138,7 @@ const projects = [
     web: "https://calles-construction.vercel.app/",
     youtube: "mOV8O6jPwC4",
     video: "https://www.youtube.com/watch?v=mOV8O6jPwC4",
-    github: "http://github.com/pibelanzallamas/calles-construction",
+    github: "http://github.com/brandoncastillodev/calles-construction",
     description:
       "Website built for construction company located in New York City.",
     descripcion:
@@ -170,7 +170,7 @@ const projects = [
     web: "https://dreamer-paintings.vercel.app",
     youtube: "ihcTIHnBINU",
     video: "https://www.youtube.com/watch?v=ihcTIHnBINU",
-    github: "https://github.com/pibelanzallamas/dreamers-paintings",
+    github: "https://github.com/brandoncastillodev/dreamers-paintings",
     description:
       "Web site made for abstract painting artist from the city of Buenos Aires.",
     descripcion:
@@ -189,7 +189,7 @@ const projects = [
     web: "https://givemeayugiohcard.vercel.app/",
     youtube: "NEzQ7VnWCLI",
     video: "https://www.youtube.com/watch?v=NEzQ7VnWCLI",
-    github: "http://github.com/pibelanzallamas/givemeayugiohcard",
+    github: "http://github.com/brandoncastillodev/givemeayugiohcard",
     description: "Get a random Yu-Gi-Oh! card.",
     descripcion: "Obtené una carta aleatoria de Yu-Gi-Oh!.",
     tags: ["react", "sass", "axios", "html/css", "javascript"],
@@ -205,7 +205,7 @@ const projects = [
     web: "https://my-movie-crib.vercel.app/1",
     youtube: "j-qgyoaeJN4",
     video: "https://www.youtube.com/watch?v=j-qgyoaeJN4",
-    github: "https://github.com/pibelanzallamas/my-movie-crib-front",
+    github: "https://github.com/brandoncastillodev/my-movie-crib-front",
     description:
       "Web application for searching movies, viewing the trending ones, saving favorites, and visiting their websites.",
     descripcion:
@@ -247,7 +247,7 @@ const projects = [
     author: "Brandon Castillo",
     image:
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732841819/sacri.png",
-    web: "https://pibelanzallamas.github.io/sacrificial-suicide/",
+    web: "https://brandoncastillodev.github.io/sacrificial-suicide/",
     youtube: "g7rukS6FLNQ",
     video: "https://www.youtube.com/watch?v=g7rukS6FLNQ",
     github: "https://sacrificial-suicide.vercel.app",
