@@ -2,7 +2,7 @@ const links = [
   
   {
     name: "Github",
-    link: "https://github.com/pibelanzallamas",
+    link: "https://github.com/brandoncastillodev",
   },
   {
     name: "Behance",
