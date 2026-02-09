@@ -12,7 +12,7 @@ function Home() {
 
   return (
     <main>
-      <h1><a className="name" href="https://linkedin.com/in/brandon-castillo-dev" target="_blank">brandon castillo</a></h1>
+      <h1><a className="name" href="https://linkedin.com/in/brandoncastillodev" target="_blank">brandon castillo</a></h1>
       <h2>
         <a className="name" href="https://api.constata.eu/certificate/research+riding+veal+bonfire+dedicator" target="_blank">{esp ? <>Front End / diseño ux</> : <>Front End / UX Designer</>}</a>
       </h2>
