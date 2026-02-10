@@ -8,18 +8,18 @@ function Navbar() {
   const esp = useSelector((state) => state.lang.esp);
   const dispatch = useDispatch();
 
-  useEffect(() => {
-    const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
-    const handleChange = () => {
-      dispatch(setTheme(mediaQuery.matches));
-    };
+  // useEffect(() => {
+  //   const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+  //   const handleChange = () => {
+  //     dispatch(setTheme(mediaQuery.matches));
+  //   };
 
-    dispatch(setTheme(mediaQuery.matches));
+  //   dispatch(setTheme(mediaQuery.matches));
 
-    mediaQuery.addEventListener("change", handleChange);
+  //   mediaQuery.addEventListener("change", handleChange);
 
-    return () => mediaQuery.removeEventListener("change", handleChange);
-  }, [dispatch]);
+  //   return () => mediaQuery.removeEventListener("change", handleChange);
+  // }, [dispatch]);
 
   return (
     <nav className={dark ? "nav-dark" : "nav-light"}>
