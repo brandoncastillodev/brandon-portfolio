@@ -25,13 +25,14 @@ function Profile() {
         <p className="profile-description">
           {esp ? (
             <>
-              Front-end. Back-end. Ux Designer. 1 año de experiencia. Pasión por realizar diseños originales
-              de manera pixel perfect, asegurando funcionalidad y compatibilidad.
+              1 año de experiencia especializado
+              en realizar diseños ui de manera pixel perfect 
+              asegurando funcionalidad, optimización y responsividad.
             </>
           ) : (
             <>
-              Front-end. Back-end. Ux Designer. 1 year of experience. Passion to deliver pixel-perfect originals ui designs
-              ensuring functionality and Compatibility. 
+             1 year of experience specializing in creating pixel-perfect 
+             UI designs, ensuring functionality, optimization, and responsiveness.
             </>
           )}
         </p>
