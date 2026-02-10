@@ -8,7 +8,11 @@ function Videos() {
       <h1>Videos</h1>
       {projects.map((project) => (
         <div className="one-video-card" key={project.id}>
-        <h2><u>{project.name}</u></h2>
+        <h2>
+          <a href={project.web} target="_blank" rel="noopener noreferrer">
+            <u>{project.name}</u>
+          </a>
+        </h2>
         <div className={dark? "iframe-dark":"iframe-light"}>
           <iframe 
             width="560" 
