@@ -24,9 +24,11 @@ function Projects() {
   return (
     <main className="videos-page">
       <h1>{esp ? <>proyectos</> : <>projects</>}</h1>
-        {resultados.map((project) => (
-          <ProjectCard {...{ project }} />
-        ))}
+      <div className="projects-container">
+      {resultados.map((project) => (
+        <ProjectCard {...{ project }} />
+      ))}
+      </div>
     </main>
   );
 }

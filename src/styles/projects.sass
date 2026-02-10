@@ -1,7 +1,15 @@
+.projects-container
+  display: flex
+  flex-direction: column
+  gap: 2.5rem
+  
 .one-project-card
   display: flex
   flex-direction: column
-  gap: 0.5rem
+  gap: 0.4rem
+
+.date
+  font-size: 1.12rem
   
 .project-image
   width: 100%
@@ -15,20 +23,23 @@
   line-height: 150%
   font-size: 1.1rem
 
-.project-logos
-  ul
-    display: flex
-    justify-content: space-evenly
-  li
-    display: inline-block
-  img
-    height: 4rem
+// .project-logos
+//   ul
+//     display: flex
+//     justify-content: space-evenly
+//   li
+//     display: inline-block
+//   img
+//     height: 4rem
 
 .repo-emoji
+  margin-top: -0.3rem
   font-size: 3rem
   text-align: center
 
 @media (min-width: 700px)
+  .projects-container
+    gap: 3.5rem
   .date
     font-size: 1.4rem
   .project-description
