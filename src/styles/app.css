@@ -142,6 +142,9 @@ nav {
   gap: 0.5rem;
   margin-top: 1rem;
 }
+.one-video-card h2:hover {
+  color: #e84855;
+}
 
 iframe {
   width: 100%;
