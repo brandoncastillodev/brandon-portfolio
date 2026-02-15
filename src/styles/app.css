@@ -5,13 +5,13 @@ nav {
 }
 
 .nav-light {
-  background-color: #ff9900;
-  color: #0575f5;
+  background-color: #CC7A00;
+  color: #045EC4;
 }
 
 .nav-dark {
-  background-color: #0575f5;
-  color: #ff9900;
+  background-color: #045EC4;
+  color: #CC7A00;
 }
 
 .links {
@@ -30,12 +30,12 @@ nav {
 
 .links-light a:hover, .links-light a:focus {
   color: white;
-  background-color: #0575f5;
+  background-color: #045EC4;
 }
 
 .links-dark a:hover, .links-dark a:focus {
-  color: #0575f5;
-  background-color: #ff9900;
+  color: #045EC4;
+  background-color: #CC7A00;
 }
 
 @media (min-width: 700px) {
@@ -175,7 +175,7 @@ iframe {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  border: #ff9900 5px double;
+  border: #CC7A00 5px double;
 }
 
 section {
@@ -207,7 +207,7 @@ section {
     margin-bottom: 1rem;
   }
   .profile-pic img {
-    border: #ff9900 10px double;
+    border: #CC7A00 10px double;
   }
   .profile-description {
     font-size: 1.5rem;
@@ -229,7 +229,7 @@ section {
   font-size: 1.4rem;
 }
 .contact-links-dark a:hover {
-  color: #e2adf2;
+  color: #DB9AEF;
   cursor: pointer;
 }
 
@@ -272,11 +272,11 @@ footer {
 }
 
 .botones-footer-light button {
-  color: #0575f5;
-  border: #0575f5 3px solid;
+  color: #045EC4;
+  border: #045EC4 3px solid;
 }
 .botones-footer-light button:hover {
-  background-color: #0575f5;
+  background-color: #045EC4;
   color: white;
 }
 
@@ -348,7 +348,7 @@ html {
 
 .light-mode {
   background-color: #60b8f7;
-  color: #0575f5;
+  color: #045EC4;
 }
 .light-mode h2 {
   font-size: 1.3rem;
@@ -356,12 +356,12 @@ html {
 }
 
 .dark-mode {
-  background-color: #5158BB;
+  background-color: #373D8D;
   color: #e84855;
 }
 .dark-mode h2 {
   font-size: 1.3rem;
-  color: #e2adf2;
+  color: #DB9AEF;
 }
 
 main {
@@ -379,7 +379,7 @@ main {
 .image img {
   height: 100%;
   width: 100%;
-  border: #ff9900 4px solid;
+  border: #CC7A00 4px solid;
 }
 
 img {

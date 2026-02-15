@@ -3,6 +3,12 @@ import projects from "../utils/projects";
 
 function Videos() {
   const dark = useSelector((state) => state.theme.dark);
+  // const base = "https://res.cloudinary.com/TU_CLOUD/video/upload/";
+  // const qualityMap = {
+  //   original: "q_100",
+  //   high: "q_auto",
+  //   low: "q_40",
+  // };
   return (
     <main className="videos-page">
       <h1>Videos</h1>
@@ -14,6 +20,10 @@ function Videos() {
           </a>
         </h2>
         <div className={dark? "iframe-dark":"iframe-light"}>
+            {/* <source
+            src={`${base}${qualityMap[quality]}/demo.mp4`}
+            type="video/mp4"
+          /> */}
           <iframe 
             width="560" 
             height="280" 
