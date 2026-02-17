@@ -24,7 +24,7 @@ const projects = [
     month: "Mar",
     author: "Brandon Castillo",
     image:
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1767358568/2026-01-02-09-55-52_elwszo.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1771345684/2026-02-17-13-11-52_crcxnp.png",
     web: "https://brandon-castillo.vercel.app/",
     youtube: "fQGRjpaZeFk",
     video: "https://www.youtube.com/watch?v=fQGRjpaZeFk",
