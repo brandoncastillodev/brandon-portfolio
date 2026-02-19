@@ -12,21 +12,28 @@ function Home() {
 
   return (
     <main>
-      <h1><a className="name" href="https://linkedin.com/in/brandoncastillodev" target="_blank">brandon castillo</a></h1>
+
+      {/* TITULO */}
+      <h1>
+        <a className="name" href="https://linkedin.com/in/brandoncastillodev" target="_blank">
+          brandon castillo
+        </a>
+      </h1>
+
+      {/* SUBTITULO */}
       <h2>
-        <a className="name" href="https://api.constata.eu/certificate/research+riding+veal+bonfire+dedicator" target="_blank">{esp ? <>Front End / diseño ux</> : <>Front End / UX Designer</>}</a>
+        <a className="name" href="https://api.constata.eu/certificate/research+riding+veal+bonfire+dedicator" target="_blank">
+          {esp ? <>Front End / diseño ux</> : <>Front End / UX Designer</>}
+        </a>
       </h2>
 
-      {/* <h2 id="sub-titles">{esp? 
-      "Webs a medida para emprendedores y marcas." : 
-      "Personalized websties for brands and companies."}</h2> */}
-      
-      <figure
-        className="image home-image"
-        style={{ marginTop: "1rem" }}
-      >
-        <img src={"https://res.cloudinary.com/daynclfo8/image/upload/v1750214239/home-DVjisMa3_vjhyzx.gif"} loading="lazy" alt="ed-riding-bike"></img>
+      {/* EEEEDDD */}
+      <figure className="image home-image" style={{ marginTop: "1rem" }}>
+        <img src={"https://res.cloudinary.com/daynclfo8/image/upload/v1750214239/home-DVjisMa3_vjhyzx.gif"} loading="lazy" alt="ed-riding-bike">
+        </img>
       </figure>
+
+      {/* CV */}
       <div style={{textAlign: "center"}} className={dark ? "contact-links-dark" : "contact-links-light"}>
         <a
           href={esp ? cv.link : cv.link2}

@@ -125,8 +125,6 @@ const projects = [
       "sass",
     ],
   },
-
-
   {
     id: 10,
     name: "Calles Construction",
@@ -134,7 +132,7 @@ const projects = [
     month: "Feb",
     author: "Brandon Castillo",
     image:
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1767358479/2026-01-02-09-54-11_cz8zaq.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1771473561/2026-02-19-00-58-19_vcmbdf.png",
     web: "https://calles-construction.vercel.app/",
     youtube: "mOV8O6jPwC4",
     video: "https://www.youtube.com/watch?v=mOV8O6jPwC4",

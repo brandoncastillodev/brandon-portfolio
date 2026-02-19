@@ -25,14 +25,11 @@ function Profile() {
         <p className="profile-description">
           {esp ? (
             <>
-              1 año de experiencia especializado
-              en realizar diseños ui de manera pixel perfect 
-              asegurando funcionalidad, optimización y responsividad.
+            Desarrollador Frontend especializado en experiencias interactivas inmersivas y de alto rendimiento para SaaS.
             </>
           ) : (
             <>
-             1 year of experience specializing in creating pixel-perfect 
-             UI designs, ensuring functionality, optimization, and responsiveness.
+            Frontend Developer specialized in immersive, high-performance interactive experiences for SaaS.
             </>
           )}
         </p>
@@ -43,20 +40,15 @@ function Profile() {
 
         <div className={dark ? "contact-links-dark" : "contact-links-light"}>
         <ul clkassName="lists" style={{display: "flex", flexDirection: "column", lineHeight: "2.2rem"}}>
-          <a onClick={()=>handleClickTechnologie("nodejs")}>NodeJs</a>
-          <a onClick={()=>handleClickTechnologie("express")}>Express</a>
-          <a onClick={()=>handleClickTechnologie("sequelize")}>Sequelize</a>
-          <a onClick={()=>handleClickTechnologie("jwt")}>JWT</a>
           <a onClick={()=>handleClickTechnologie("react")}>React</a>
           <a onClick={()=>handleClickTechnologie("redux")}>Redux</a>
           <a onClick={()=>handleClickTechnologie("sass")}>Sass</a>
           <a onClick={()=>handleClickTechnologie("html/css")}>Html/Css</a>
-          <a onClick={()=>handleClickTechnologie("figma")}>Figma</a>
-          <a onClick={()=>handleClickTechnologie("visual studio code")}>Visual Studio Code</a>
-          <a onClick={()=>handleClickTechnologie("github")}>Github</a>
         </ul>
         </div>
       </section>
+
+      <br/>
     </main>
   );
 }
